@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <!-- 填充 -->
+    <solid
+        android:color="#3689EE"/><!-- 填充的颜色 -->
+    <!-- 描边 -->
+    <!--<stroke
+        android:width="1.0dip"
+        android:color="@color/confirm_cancel_util_dialog_stroke_color" />-->
+    <!-- 圆角半径 -->
+    <corners
+        android:radius="15dp"
+        ></corners>
+</shape>
