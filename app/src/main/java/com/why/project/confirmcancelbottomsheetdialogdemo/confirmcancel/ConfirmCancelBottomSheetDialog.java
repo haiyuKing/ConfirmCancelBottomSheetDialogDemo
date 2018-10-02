@@ -47,7 +47,8 @@ public class ConfirmCancelBottomSheetDialog extends BottomSheetDialog {
 		int screenHeight = getScreenHeight((Activity) mContext);
 		int statusBarHeight = getStatusBarHeight(getContext());
 		int dialogHeight = screenHeight;//
-		getWindow().setLayout(ViewGroup.LayoutParams.MATCH_PARENT, dialogHeight == 0 ? ViewGroup.LayoutParams.MATCH_PARENT : dialogHeight);
+//		getWindow().setLayout(ViewGroup.LayoutParams.MATCH_PARENT, dialogHeight == 0 ? ViewGroup.LayoutParams.MATCH_PARENT : dialogHeight);
+		getWindow().setLayout(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);//红米6pro适配
 		//设置透明
 		getWindow().findViewById(R.id.design_bottom_sheet).setBackgroundResource(android.R.color.transparent);
 
